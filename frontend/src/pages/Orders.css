@@ -1,0 +1,40 @@
+.orders-container {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.order-item {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.order-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.order-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.order-status {
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.status-paid {
+    background: green;
+    color: white;
+}
+
+.status-pending {
+    background: orange;
+    color: white;
+}
