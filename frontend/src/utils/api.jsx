@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Set up Axios instance with base URL
 const API = axios.create({
-    baseURL: "http://localhost:5000/api", // Change this if your backend is deployed
+    baseURL: "https://ecommerce1-xi-lilac.vercel.app/api", // Change this if your backend is deployed
     headers: {
         "Content-Type": "application/json"
     }
